@@ -11,7 +11,6 @@
 
 
 ## 功能
-- 在你的项目目录执行`grunt-init rollupjs-template`即可初始化该模板
 - 使用[Rollup](http://rollupjs.org/)打包工具来构建我们的产品
 - 使用[UglifyJS](https://github.com/mishoo/UglifyJS2)对最终产品代码进行压缩
 - 使用基于Node.js之上的[Live Server服务器](https://www.npmjs.com/package/live-server)，加快开发进度
@@ -20,6 +19,7 @@
 
 
 ## 使用
+- 在你的项目目录执行`grunt-init rollupjs-template`即可初始化该模板
 - 在当前文件夹执行`npm install`安装依赖模块
 - `npm start`运行内建的服务器,端口冲突可以通过package.json来更改端口号，默认为52233
 - `npm run build`构建代码并且支持代码监测并重新编译、压缩
@@ -27,7 +27,7 @@
 
 
 ## 说明
-/test/       --- Qunit.js测试目录
-/src/mod     --- 子模块文件
-/src/main.js --- 入口模块
-/build/      --- Rollup最终打包后的文件存放目录
+- /test/       --- Qunit.js测试目录
+- /src/mod     --- 子模块文件
+- /src/main.js --- 入口模块
+- /build/      --- Rollup最终打包后的文件存放目录
