@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="{%= author %}">
+    <link rel="stylesheet" href="node_modules/qunitjs/qunit/qunit.css">
+    <title>{%= name %}:Qunit测试页面</title>
+</head>
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+
+
+    <!--  Qunit库-->
+    <script src="node_modules/qunitjs/qunit/qunit.js"></script>
+    
+    <!--  Bundle & Test -->
+    <script src="build/bundle.js"></script>
+    <script src="test/bundle.test.js"></script>
+</body>
+</html>

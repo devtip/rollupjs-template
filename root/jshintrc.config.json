@@ -1,0 +1,30 @@
+// For More Details: http://jshint.com/docs/
+
+{
+  "browser": true,  // 预定义一些全局浏览器变量
+
+  "globals": {
+    "module": true,
+    "exports": true,
+    "define": true,
+    "jQuery": true,
+    "_": true, // For Underscore or Lodash
+    "Backbone": true
+  },
+
+  "devel": true,   // 定义用于调试的全局变量
+  "curly": true,   // Require curly braces for blocks and scope
+  "eqeqeq": true,  // Require "===" instead of "==" for equality
+  "immed": true,   // Must wrap immediate invoked functions in parens
+
+  "sub": true,     // Allow '[]' even if dot notation could be used
+  
+  "boss": true,    // Allow assignments where comparisons might be expected
+  
+  "undef": true,   // Require all non-global variables to be declared
+  "latedef": true, // 函数和变量在使用前必须先定义
+  
+  "newcap": true,  // 构造器函数必须大写开头
+  "noarg": true,   // 不允许使用'arguments.caller'和 'arguments.callee'
+  "eqnull": true   // 允许使用'== null'进行比较
+}
